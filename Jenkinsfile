@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('Continuous Download_master') 
 	{
-    git 'https://github.com/sunildevops77/maven.git'
+    git branch: 'main', url: 'https://github.com/saikurmapu/demo'
 	}
     stage('Continuous Build_master') 
 	{
